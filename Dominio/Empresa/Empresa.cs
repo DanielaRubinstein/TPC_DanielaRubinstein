@@ -12,23 +12,7 @@ namespace Dominio
         public string CUIL { get; set; }
         public string RazonSocial { get; set; }
         public Direccion Direccion { get; set; }
-        public List<Contacto> Contacto { get; set; }
-
-        //public Empresa()
-        //{
-        //    this.Direccion = new Direccion();
-        //}
-        //public Empresa(int id)
-        //{
-        //    IdEmpresa = id;
-        //}
-
-        //public Empresa(string cuil, string razonSocial, int id)
-        //{
-        //    CUIL = cuil;
-        //    RazonSocial = razonSocial;
-        //    IdEmpresa = id;
-        //}
+        public Contacto Contacto { get; set; }
 
         public override string ToString()
         {
